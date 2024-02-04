@@ -1,6 +1,7 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
 import { logout } from '../../redux/reducer/AuthSlice';
+import Dashboard from '../Layout/Layout';
 
 const Home = () => {
 
@@ -10,9 +11,13 @@ const Home = () => {
   }
 
   return (
-    <div>Home
+    <div>
+      <div>
+        <Dashboard />
+      </div>
 
-      <button onClick={logoutHandler}>Logout</button>
+
+      {/* <button onClick={logoutHandler}>Logout</button> */}
     </div>
 
   )

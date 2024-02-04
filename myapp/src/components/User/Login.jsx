@@ -13,7 +13,7 @@ const Login = () => {
         console.log(isSuccess);
         navigate('/')
      }
-    },[dispatch, navigate])
+    },[isSuccess, navigate])
     const loginSubmit = (e) =>{
         e.preventDefault();
        
