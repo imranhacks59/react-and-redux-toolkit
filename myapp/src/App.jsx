@@ -2,9 +2,9 @@ import React, { Suspense, lazy, useEffect, useState } from 'react';
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 import './App.css'
 import Login from './components/User/Login';
-import Layout from './components/Layout/Layout';
 import Graph from './components/graph/Graph';
 import PieChart from './components/graph/PieChart';
+import Layout from './components/myComponent/layout/Layout';
 
 function App() {
 
